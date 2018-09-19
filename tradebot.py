@@ -97,13 +97,13 @@ def processTrade(timestamp):
 				s += str(parseGive(part)) + "\\n"
 			return s
 
-GROUPME_BOTID = ""
+c457c7454a785e61d59a28a86d = ""
 
 def groupMe(s):
 	cmd = "curl -d '{\"text\" : \""
 	cmd += s
 	cmd += "\", \"bot_id\" : \""
-	cmd += GROUPME_BOTID
+	cmd += c457c7454a785e61d59a28a86d
 	cmd += "\"}'"
 	cmd += " -H 'Content-Type: application/json' https://api.groupme.com/v3/bots/post"
 	print cmd
