@@ -76,7 +76,7 @@ def parseGive(gave):
 
 
 def processTrade(timestamp):
-	s = "**** TRADE ALERT ****\\n"
+	s = " ▲▼▲▼A RAVEN HAS ARRIVED WITH WORD OF A TRADE▲▼▲▼ \\n"
 	for child in trades:
 		if child.attrib['timestamp'] == timestamp:
 			f1 = child.attrib['franchise']
